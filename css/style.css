@@ -1,0 +1,257 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrapper {
+
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.grid_1 {
+    background: lime;
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-areas:
+        "a b b c"
+        "d d d e"
+        "d d d e"
+        "f f f e"
+        "f f f g"
+        "h h h g"
+        "h h h g"
+        "i j j j"
+        "i k k l"
+        "m m m n"
+        "o p p n"
+        "q p p n"
+    ;
+
+}
+
+.grid_a {
+    background: green;
+    outline: 2px solid black;
+}
+
+.grid_a1 {
+    background: rgb(240, 100, 0);
+    grid-area: a;
+}
+
+.grid_a2 {
+    background: pink;
+    grid-area: b;
+}
+
+.grid_a3 {
+    background: blue;
+    grid-area: c;
+}
+
+.grid_a4 {
+    background: red;
+    grid-area: d;
+}
+
+.grid_a5 {
+    background: hotpink;
+    grid-area: e;
+}
+
+.grid_a6 {
+    background: lavender;
+    grid-area: f;
+}
+
+.grid_a7 {
+    background: aqua;
+    grid-area: g;
+}
+
+.grid_a8 {
+    background: purple;
+    grid-area: h;
+}
+
+.grid_a9 {
+    background: firebrick;
+    grid-area: i;
+
+}
+
+.grid_a10 {
+    background: gold;
+    grid-area: j;
+
+}
+
+.grid_a11 {
+    background: wheat;
+    grid-area: k;
+
+}
+
+.grid_a12 {
+    background: darkgreen;
+    grid-area: l;
+
+}
+
+.grid_a13 {
+    background: rgb(30, 48, 12);
+    grid-area: m;
+
+}
+
+.grid_a14 {
+    background: gray;
+    grid-area: n;
+
+}
+
+.grid_a15 {
+    background: orange;
+    grid-area: o;
+
+}
+
+.grid_a16 {
+    background: yellow;
+    grid-area: p;
+
+}
+
+.grid_a17 {
+    background: blueviolet;
+    grid-area: q;
+
+}
